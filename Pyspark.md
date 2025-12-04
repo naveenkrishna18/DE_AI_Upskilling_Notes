@@ -37,4 +37,9 @@ Program which gets the command from driver node(master) and executor(slave) is c
 
 ### Components of spark architecture
 * Driver Program - Main controller of spark application
+* Spark Session/ Spark context - entry point of a spark application
+* Cluster manager - allocates resources to spark eg: YARN, Kubernetes
+* Executors - Workers that run the actual data processing
+* Tasks - Smallest unit of data computation
+* DAG Scheduler/ Task Scheduler - Plan and Schedule tasks for execution
 
